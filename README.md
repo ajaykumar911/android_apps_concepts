@@ -124,3 +124,37 @@ App Signing: Ensure app security through proper signing and certificate manageme
 Learn how to debug and test your Android app:
 Logcat: Android's logging system for debugging.
 Emulators and Devices: Testing your app on different devices and Android versions.
+
+# 3. Common Android App Architectural Patterns
+
+Several architectural patterns are commonly used in Android app development:
+
+1. MVC (Model-View-Controller)
+
+Model: Represents the data and business logic.
+View: Presents the user interface to the user.
+Controller: Acts as an intermediary, handling user input and communicating between the Model and View.
+While MVC is simple, it often leads to tight coupling between components, making maintenance and testing more challenging.
+
+2. MVP (Model-View-Presenter)
+
+Model: Represents the data and business logic.
+View: Manages the UI and receives user input.
+Presenter: Acts as an intermediary, handling the interaction between the Model and View.
+MVP addresses some of the issues with MVC by separating the View and Model, making it easier to test the Presenter.
+
+2. MVVM (Model-View-ViewModel)
+
+Model: Represents the data and business logic.
+View: Manages the UI and observes the ViewModel.
+ViewModel: Holds the presentation logic, exposing data and commands for the View to bind to.
+MVVM is becoming increasingly popular in Android development due to its clean separation of concerns and support for data binding.
+
+4. Clean Architecture
+
+Clean Architecture is an architectural pattern that divides the application into layers, each with a specific responsibility:
+
+Presentation Layer: Contains the UI and handles user interaction.
+Domain Layer: Contains the core business logic.
+Data Layer: Manages data storage and retrieval.
+Clean Architecture enforces a clear separation of concerns, making it easier to test and maintain the codebase. It's often used in conjunction with other patterns like MVVM.
