@@ -1,4 +1,4 @@
-# 1. Introductions 
+# 1. Introductions and Basic Concepts in the Android App Development
 
   Android app development is a thriving and exciting field, offering endless possibilities for creating innovative and user-friendly mobile applications. Whether you're a beginner or an experienced developer, this comprehensive 
   guide will walk you through the entire process of developing an Android app, from conceiving an idea to deploying it on the Google Play Store. Let's embark on this journey into the world of Android app development.
