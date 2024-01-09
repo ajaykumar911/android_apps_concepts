@@ -297,7 +297,7 @@ Learning Curve: Developers new to Clean Architecture may face a learning curve. 
 
 6. Dart (Flutter): Flutter is another cross-platform framework, developed by Google, that uses the Dart programming language. While it's not as common as Java, Kotlin, or React Native for Android development, it's gaining popularity for its ease of use and fast development.
 
-#Basic requirement for the android developement
+# Basic requirement for the android developement
 
 1. Computer:A computer running Windows, macOS, or Linux.
 2. Software:Java Development Kit (JDK): Android development primarily uses Java or Kotlin. Install the latest version of JDK from the Oracle website or use OpenJDK.
