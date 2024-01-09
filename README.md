@@ -283,4 +283,18 @@ Boilerplate Code: Implementing Clean Architecture can result in some boilerplate
 Complexity: Clean Architecture may introduce some additional complexity compared to simpler architectural patterns. It's crucial to design your app's architecture with scalability in mind but not overcomplicate it unnecessarily.
 Learning Curve: Developers new to Clean Architecture may face a learning curve. However, the investment in learning can lead to more maintainable and flexible code.
 
+#Programming Languages used in android developement-
+
+ 1.Java: Traditionally, Java has been the primary language for Android development. Many Android applications are written in Java, and it has been the official language for Android development for a long time.
+
+ 2. Kotlin: Kotlin is a modern programming language that was introduced by JetBrains. It is designed to be fully interoperable with Java, and it offers concise syntax and enhanced features. Kotlin has gained widespread adoption in the Android development community and is now considered the preferred language by many developers. Google officially announced Kotlin as an official language for Android development in 2017.
+
+3. XML (eXtensible Markup Language): XML is used for designing the user interface in Android applications. Layouts, views, and other UI elements are defined using XML.
+
+4. C/C++: While Java and Kotlin are the primary languages for building the application logic and UI, C and C++ can be used for performance-critical components. The Android NDK (Native Development Kit) allows developers to write parts of their applications in native code for improved performance.
+
+5. JavaScript (React Native): For cross-platform mobile development, some developers use frameworks like React Native, which allows them to write mobile apps using JavaScript and React. Although it's not native Android development, it can be an option for those who want to leverage their web development skills.
+
+6. Dart (Flutter): Flutter is another cross-platform framework, developed by Google, that uses the Dart programming language. While it's not as common as Java, Kotlin, or React Native for Android development, it's gaining popularity for its ease of use and fast development.
+
 
